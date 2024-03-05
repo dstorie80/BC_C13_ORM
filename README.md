@@ -3,12 +3,11 @@ Learning how to use sequelize in junction with mysql to add data into the a data
 
 ## Description
 
-This project was created to get a better understanding of MySQL and accessing queries from within the console.
+This project was created to get a better understanding of ORMs and accessing databases in MYSQL. We then needed to use inquirer to make api calls to see the data in the table once the server had been started.
 
-- The project was an aid to help us understand MySQL, using inquirer to run custom queries, create a database with tables, access those tables from questions within the inquirer.
-- Only one index.js file was created, but two sql files were created.  A schema.sql to create the database and tables from scratch, and then a seed.sql file to populate the tables with data.
-
-
+- The project was an aid to help us understand MySQL, using an ORM (Seuelize).
+- In this project we needed to update the route folders to allow us to make api calls in order to Get, Put, Post and Delete (Destroy)
+- We had to create and env file to hide our credentials for sql to make the connection to the localhost mysql db
 
 
 ## Table of Contents 
@@ -26,7 +25,7 @@ To pull the rep files:
 3. Navigate git bash to a designated folder of your chosing (CD <filepath/> [if a new folder needs to be created, you can use the mkdir command in git bash])
 4. Pull the latest update from git using the clone command in git bash (git clone <repo url>)
 5. Once the repo has been downloaded into the folder, you can use open vs code (code . in git bash) to open the files from the repo
-6. The Main project video can be found here: https://watch.screencastify.com/v/sJMzdTR5aKPbmcPnyECX
+6. The Main project video can be found here: [https://watch.screencastify.com/v/sJMzdTR5aKPbmcPnyECX](https://drive.google.com/file/d/1OsHzbfKk9e-tdKvsXw1v-P_UUGU8DT8l/view?usp=sharing)
 
 
 
